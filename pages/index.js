@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="  object-cover w-full bg-cover h-screen grid justify-center content-center bg-gradient-to-tl from-purple-700 to-black">
+    <div className="  object-cover w-full bg-cover h-screen grid justify-center content-center bg-gradient-to-tl from-blue-700 to-black">
       <img
         src="img/bg-4.jpg"
         className=" absolute h-full w-full object-cover mix-blend-overlay"
