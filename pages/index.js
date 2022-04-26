@@ -47,7 +47,7 @@ export default function Home() {
           >
             <p>
               Powered by{" "}
-              <span className=" text-blue-300"> PointX and Zest</span>
+              <span className=" text-blue-200"> PointX and Zest</span>
             </p>
           </a>
         </footer>
