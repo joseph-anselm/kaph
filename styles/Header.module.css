@@ -1,0 +1,34 @@
+.carousel {
+  max-height: 400px;
+  object-fit: cover;
+}
+.carouselcaption {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  top: 35%;
+  z-index: 10;
+  text-shadow: 1px 1px 1px #000;
+}
+.carousel-control-next {
+  right: 0;
+  visibility: hidden;
+}
+.carousel::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  z-index: 0;
+}
+.btn {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #d9fd0d;
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
