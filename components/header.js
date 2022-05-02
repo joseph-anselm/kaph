@@ -24,7 +24,7 @@ function Header() {
             alt="First slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
-            <h1>Professionalism & Efficiency</h1>
+            <h1>Professionalism </h1>
             <p>We ensure topnotch Professionalism in handling your projects.</p>
             <Button href="#" className={styles.btn}>
               Contact Us
@@ -38,7 +38,7 @@ function Header() {
             alt="Second slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
-            <h1 className="shadow">Supporting your Business</h1>
+            <h1 className="shadow">Business Support</h1>
             <p>Creating world class Business support solutions.</p>
             <Button href="#" className={styles.btn}>
               Our Story
@@ -52,7 +52,7 @@ function Header() {
             alt="Third slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
-            <h1>Cutting Edge Consultancy</h1>
+            <h1>Consultancy</h1>
             <p>Best Advisory team, commited to your business needs.</p>
             <Button href="#" className={styles.btn}>
               Get Started
