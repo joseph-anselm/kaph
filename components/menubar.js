@@ -52,7 +52,7 @@ export default function Menubar() {
             <Nav>
               <Nav.Link href="#deets">
                 <Button variant="primary" className={styles.navbutton}>
-                  Request Service
+                  Live Chat
                 </Button>{" "}
               </Nav.Link>
               {/* <Nav.Link eventKey={2} href="#memes">

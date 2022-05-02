@@ -25,6 +25,10 @@ export default function Layout({ children }) {
       <Head>
         <title>Welcome to Kaph Global Solutions Limited</title>
         <link rel="icon" href="/img/favicon.png" />
+        <meta
+          name="google-site-verification"
+          content="LCuDCIfe0pJ2jlIqnY_0ABT5-j-4Q00j7EqvK0Xw3JA"
+        />
       </Head>
       <Menubar />
       <Header />
