@@ -3,12 +3,11 @@
   object-fit: cover;
 }
 .carouselcaption {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   z-index: 10;
   text-shadow: 1px 1px 1px #000;
+  top: 40%;
 }
 .carousel-control-next {
   right: 0;
