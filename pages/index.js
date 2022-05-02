@@ -28,7 +28,12 @@ export default function Home() {
         <Row>
           <div className=" p-2 me-auto text-gray rounded text-center">
             <div className="grid justify-center">
-              <img src="img/kaphfooterlogo.png" width={150} alt="kaph logo" />
+              <img
+                src="img/kaphfooterlogo.png"
+                width={150}
+                alt="kaph logo"
+                className="flex justify-center"
+              />
               <h2>We Are KGLS </h2>
             </div>
             <p>

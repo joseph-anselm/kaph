@@ -21,15 +21,36 @@ import {
 export default function Footer() {
   return (
     <div>
-      <Container fluid class="mt-4 p-10 bg-black text-white rounded">
+      <Container fluid className=" bg-slate-700">
+        <Container>
+          <Row>
+            <div className="flex justify-center p-2 space-x-5 cursor-pointer">
+              <Link href="https://facebook.com/kaphglobal">
+                <Icon.Facebook size={20} color="yellow" />
+              </Link>
+              <Link href="https://linkedin.com/kaphglobal">
+                <Icon.Linkedin size={20} color="yellow" className=" border-2" />
+              </Link>
+              <Link href="https://twitter.com/kaphglobal">
+                <Icon.Twitter size={20} color="yellow" />
+              </Link>
+            </div>
+          </Row>
+        </Container>
+      </Container>
+      <Container fluid class="p-10 bg-black text-white rounded">
         <Row>
           <Col xs={12} md={4} className={styles.footerlinks}>
-            <img src="img/kaphfooterlogo.png" width={150} alt="footer image" />
+            <img
+              src="img/kaphfooterlogo.png"
+              width={150}
+              alt="footer image"
+              className="mb-4"
+            />
             <p>
-              Reprehenderit deserunt occaecat ea velit irure veniam ut dolor do
-              fugiat minim incididunt nulla Lorem. Cupidatat ipsum veniam esse
-              nostrud amet id ipsum qui occaecat magna. Non dolor cupidatat
-              proident laborum fugiat laboris.
+              Kaph Global Solutions Limited (KGSL) is a women-owned commercial
+              procurement and B2B supply chain company. Our approach to business
+              has enabled us to provide value-driven alternatives to our client.
             </p>
           </Col>
 
