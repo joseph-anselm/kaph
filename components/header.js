@@ -40,7 +40,9 @@ function Header() {
           <Carousel.Caption className={styles.carouselcaption}>
             <h1 className="shadow">Supporting your Business</h1>
             <p>Creating world class Business support solutions.</p>
-            <Button variant="primary">Our Story</Button>
+            <Button href="#" className={styles.btn}>
+              Our Story
+            </Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1000} className={styles.carousel}>
