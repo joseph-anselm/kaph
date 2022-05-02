@@ -21,23 +21,6 @@ import {
 export default function Footer() {
   return (
     <div>
-      <Container fluid className=" bg-slate-700">
-        <Container>
-          <Row>
-            <div className="flex justify-center p-2 space-x-5 cursor-pointer">
-              <Link href="https://facebook.com/kaphglobal">
-                <Icon.Facebook size={20} color="yellow" />
-              </Link>
-              <Link href="https://linkedin.com/kaphglobal">
-                <Icon.Linkedin size={20} color="yellow" className=" border-2" />
-              </Link>
-              <Link href="https://twitter.com/kaphglobal">
-                <Icon.Twitter size={20} color="yellow" />
-              </Link>
-            </div>
-          </Row>
-        </Container>
-      </Container>
       <Container fluid class="p-10 bg-black text-white rounded">
         <Row>
           <Col xs={12} md={4} className={styles.footerlinks}>
@@ -94,8 +77,21 @@ export default function Footer() {
         </Row>
       </Container>
 
-      <footer className="bg-dark p-2 text-center">
-        <p className="text-white">
+      <footer className="bg-dark p-2 text-center grid">
+        <Row>
+          <div className="flex justify-center p-2 space-x-5 cursor-pointer">
+            <Link href="https://facebook.com/kaphglobal">
+              <Icon.Facebook size={20} color="yellow" />
+            </Link>
+            <Link href="https://linkedin.com/kaphglobal">
+              <Icon.Linkedin size={20} color="yellow" className=" border-2" />
+            </Link>
+            <Link href="https://twitter.com/kaphglobal">
+              <Icon.Twitter size={20} color="yellow" />
+            </Link>
+          </div>
+        </Row>
+        <p className="text-white text-xs">
           © 2020 Copyright{" "}
           <span className=" text-blue-200">
             {" "}
