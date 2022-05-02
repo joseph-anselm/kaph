@@ -34,7 +34,7 @@ function Header() {
         <Carousel.Item interval={1000} className={styles.carousel}>
           <img
             className="d-block w-100"
-            src="/img/bg-3.jpg"
+            src="/img/bgd-2.jpg"
             alt="Second slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
@@ -48,7 +48,7 @@ function Header() {
         <Carousel.Item interval={1000} className={styles.carousel}>
           <img
             className="d-block w-100"
-            src="/img/bg-3.jpg"
+            src="/img/bgd-4.jpg"
             alt="Third slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
