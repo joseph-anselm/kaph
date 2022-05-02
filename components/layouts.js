@@ -23,7 +23,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Welcome to Ace Initiatives Website</title>
+        <title>Welcome to Kaph Global Solutions Limited</title>
         <link rel="icon" href="/img/favicon.png" />
       </Head>
       <Menubar />

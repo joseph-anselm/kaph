@@ -20,42 +20,38 @@ function Header() {
         <Carousel.Item interval={1000} className={styles.carousel}>
           <img
             className="d-block w-100"
-            src="/img/bg-2.jpg"
+            src="/img/bg-1.jpg"
             alt="First slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
             <h1>Professionalism & Efficiency</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>We ensure topnotch Professionalism in handling your projects.</p>
             <Button href="#" className={styles.btn}>
               Contact Us
             </Button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={500} className={styles.carousel}>
+        <Carousel.Item interval={1000} className={styles.carousel}>
           <img
             className="d-block w-100"
-            src="/img/bg-3.jpg"
+            src="/img/bg-2.jpg"
             alt="Second slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
             <h1 className="shadow">Supporting your Business</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <Button href="#" className={styles.btn}>
-              Our Story
-            </Button>
+            <p>Creating world class Business support solutions.</p>
+            <Button variant="primary">Our Story</Button>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className={styles.carousel}>
+        <Carousel.Item interval={1000} className={styles.carousel}>
           <img
             className="d-block w-100"
-            src="/img/bg-1.jpg"
+            src="/img/bg-3.jpg"
             alt="Third slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>
             <h1>Cutting Edge Consultancy</h1>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <p>Best Advisory team, commited to your business needs.</p>
             <Button href="#" className={styles.btn}>
               Get Started
             </Button>
