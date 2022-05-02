@@ -20,7 +20,7 @@ function Header() {
         <Carousel.Item interval={1000} className={styles.carousel}>
           <img
             className="d-block w-100"
-            src="/img/bg-1.jpg"
+            src="/img/bgd-1.jpg"
             alt="First slide"
           />
           <Carousel.Caption className={styles.carouselcaption}>

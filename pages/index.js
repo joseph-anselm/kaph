@@ -28,8 +28,8 @@ export default function Home() {
         <Row>
           <div className=" p-2 me-auto text-gray rounded text-center">
             <div className="grid justify-center">
+              <img src="img/kaphfooterlogo.png" width={150} alt="kaph logo" />
               <h2>We Are KGLS </h2>
-              <img src="img/kaphfooterlogo.png" width={170} alt="kaph logo" />
             </div>
             <p>
               We are commited to ensuring high quality and professional service
