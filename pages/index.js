@@ -26,7 +26,7 @@ export default function Home() {
     <div>
       <Container fluid className={styles.section1}>
         <Row>
-          <div class=" p-2 me-auto text-gray rounded text-center">
+          <div className=" p-2 me-auto text-gray rounded text-center">
             <h1 className="flex justify-center">
               Welcome to{" "}
               <span className=" ">
