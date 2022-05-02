@@ -16,9 +16,10 @@
   flex-grow: 1;
 }
 .footerlinks {
-  padding: 10px 50px;
+  padding: 10px 30px;
 }
 .footerlinks ul {
+  padding-left: 12px;
 }
 .footerlinks ul li {
   list-style: disc;

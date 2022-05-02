@@ -23,7 +23,7 @@ export default function Footer() {
     <div>
       <Container fluid class="mt-4 p-10 bg-black text-white rounded">
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className={styles.footerlinks}>
             <img src="img/kaphfooterlogo.png" width={150} alt="footer image" />
             <p>
               Reprehenderit deserunt occaecat ea velit irure veniam ut dolor do
@@ -38,7 +38,7 @@ export default function Footer() {
             <span className="flex">
               <Icon.GeoAlt />{" "}
               <p className="pl-2">
-                2 Adaralegbe Close, Off Marshy Hill Estate, Ajah
+                2 Adaralegbe Close Marshy Hill Estate, Ajah. Lekki, Lagos.
               </p>
             </span>
             <span className="flex">

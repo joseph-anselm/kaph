@@ -27,17 +27,15 @@ export default function Home() {
       <Container fluid className={styles.section1}>
         <Row>
           <div className=" p-2 me-auto text-gray rounded text-center">
-            <h1 className="flex justify-center">
-              Welcome to{" "}
-              <span className=" ">
-                <img
-                  src="img/kaphfooterlogo.png"
-                  width={200}
-                  className="m-0 p-0 flex justify-start"
-                  alt="kaph logo"
-                />
-              </span>
-            </h1>
+            <div className="flex justify-center">
+              <h2>Welcome to </h2>
+              <img
+                src="img/kaphfooterlogo.png"
+                width={170}
+                className="m-0 p-0 flex justify-start"
+                alt="kaph logo"
+              />
+            </div>
             <p>
               We are commited to ensuring high quality and professional service
               delivery and exceptional business support solutions that
