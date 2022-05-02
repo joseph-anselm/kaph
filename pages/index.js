@@ -34,6 +34,7 @@ export default function Home() {
                   src="img/kaphfooterlogo.png"
                   width={200}
                   className="m-0 p-0 flex justify-start"
+                  alt="kaph logo"
                 />
               </span>
             </h1>

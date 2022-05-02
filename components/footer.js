@@ -24,7 +24,7 @@ export default function Footer() {
       <Container fluid class="mt-4 p-10 bg-black text-white rounded">
         <Row>
           <Col xs={12} md={4}>
-            <img src="img/kaphfooterlogo.png" width={150} />
+            <img src="img/kaphfooterlogo.png" width={150} alt="footer image" />
             <p>
               Reprehenderit deserunt occaecat ea velit irure veniam ut dolor do
               fugiat minim incididunt nulla Lorem. Cupidatat ipsum veniam esse
