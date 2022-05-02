@@ -7,7 +7,7 @@
   align-items: center;
   z-index: 10;
   text-shadow: 1px 1px 1px #000;
-  top: 40%;
+  bottom: 40%;
 }
 .carousel-control-next {
   right: 0;
