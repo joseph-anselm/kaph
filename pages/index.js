@@ -27,14 +27,9 @@ export default function Home() {
       <Container fluid className={styles.section1}>
         <Row>
           <div className=" p-2 me-auto text-gray rounded text-center">
-            <div className="flex justify-center">
-              <h2>Welcome to </h2>
-              <img
-                src="img/kaphfooterlogo.png"
-                width={170}
-                className="m-0 p-0 flex justify-start"
-                alt="kaph logo"
-              />
+            <div className="grid justify-center">
+              <h2>We Are KGLS </h2>
+              <img src="img/kaphfooterlogo.png" width={170} alt="kaph logo" />
             </div>
             <p>
               We are commited to ensuring high quality and professional service
