@@ -21,7 +21,10 @@ export default function about() {
       <Container>
         <Row>
           <Col xs={12} md={12}>
-            <Icon.Bullseye size={100} className="text-center w-100 mb-3" />
+            <Icon.Bullseye
+              size={100}
+              className="text-center w-100 mb-3 text-blue-900 animate-bounce "
+            />
             <h2 className="text-center">Vision</h2>
             <p>
               Our vision is to be the preferred and trusted FMCG & commercial
@@ -34,9 +37,12 @@ export default function about() {
             </p>
           </Col>
           <Col xs={12} md={12}>
-            <Icon.Signpost2Fill size={100} className="text-center w-100 mb-3" />
+            <Icon.Signpost2Fill
+              size={100}
+              className="text-center w-100 mb-3 text-blue-900 animate-bounce"
+            />
             <h2 className=" text-center"> Mision</h2>
-            <p>
+            <p className="m-2">
               Kaph Global Solutions Limited &apos;KGSL&apos; is a commercial
               procurement company. KGSL negotiates at the most competitive level
               to provide best-in-class supply management for its
@@ -67,7 +73,9 @@ export default function about() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <p>We strive to:</p>
+            <p className="m-3">
+              <b>We strive to:</b>
+            </p>
             <Accordion>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Provision</Accordion.Header>
@@ -96,7 +104,7 @@ export default function about() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <p>
+            <p className="m-2">
               In following these goals, and thereby achieving KGSL&apos;s
               objectives and mission, it is essential that we continually
               conduct ourselves and our businesses in accordance with the

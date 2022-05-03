@@ -33,9 +33,16 @@ export default function Layout({ children }) {
       <Head>
         <title>Welcome to Kaph Global Solutions Limited</title>
         <link rel="icon" href="/img/favicon.png" />
+
         <meta
           name="google-site-verification"
           content="LCuDCIfe0pJ2jlIqnY_0ABT5-j-4Q00j7EqvK0Xw3JA"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+          rel="stylesheet"
         />
       </Head>
       <Menubar />

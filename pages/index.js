@@ -27,14 +27,16 @@ export default function Home() {
       <Container fluid className={styles.section1}>
         <Row>
           <div className=" p-2 me-auto text-gray rounded text-center">
-            <div className="grid justify-center">
+            <div className="grid justify-center w-50 m-auto">
               <img
                 src="img/kaphfooterlogo.png"
-                width={150}
+                width={180}
                 alt="kaph logo"
-                className="flex justify-center"
+                className="flex justify-center m-auto pb-4 hover:animate-bounce"
               />
-              <h2>We Are KGLS </h2>
+              <h2>
+                We Are <span className="text-blue-900">KGLS</span>{" "}
+              </h2>
             </div>
             <p>
               We are commited to ensuring high quality and professional service
@@ -201,22 +203,25 @@ export default function Home() {
         <Row className={styles.sectionchild}>
           <Col xs={6} md={3}>
             <div className={styles.iconstab}>
-              <Icon.Globe2 size={96} />
-              <h5>Quality</h5>
+              <Icon.Globe2 size={96} className="animate-bounce text-blue-900" />
+              <h4>Quality</h4>
             </div>
           </Col>
           <Col xs={6} md={3} className={styles.iconstab}>
-            <Icon.UiChecks size={96} />
-            <h5>Professionalism</h5>
+            <Icon.UiChecks size={96} className="animate-bounce text-blue-900" />
+            <h4>Professionalism</h4>
           </Col>
 
           <Col xs={6} md={3}>
-            <Icon.Bank size={96} />
-            <h5>Excellence</h5>
+            <Icon.Gem size={96} className="animate-bounce text-blue-900" />
+            <h4>Excellence</h4>
           </Col>
           <Col xs={6} md={3}>
-            <Icon.Bank size={96} />
-            <h5>Competence</h5>
+            <Icon.PersonCheck
+              size={96}
+              className="animate-bounce text-blue-900"
+            />
+            <h4>Competence</h4>
           </Col>
           {/* <div className="d-grid gap-2">
               <Button variant="primary" size="lg">

@@ -3,6 +3,9 @@
   justify-content: space-between;
   /* background: url("../public/img/wood.jpg"); */
 }
+.section1 h2 {
+  font-family: "Press Start 2P", cursive;
+}
 .servicecards {
   position: absolute;
   top: 0;
@@ -44,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.sectionchild h5 {
+.sectionchild h4 {
   margin: 0 auto;
   display: grid;
   text-align: center;
