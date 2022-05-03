@@ -37,9 +37,9 @@ export default function about() {
             <Icon.Signpost2Fill size={100} className="text-center w-100 mb-3" />
             <h2 className=" text-center"> Mision</h2>
             <p>
-              Kaph Global Solutions Limited KGSL is a commercial procurement
+              Kaph Global Solutions Limited '\KGSL\' is a commercial procurement
               company. KGSL negotiates at the most competitive level to provide
-              best-in-class supply management for its customers/clients. KGSLs
+              best-in-class supply management for its customers/clients. KGSL\'s
               mission is to be the preferred procurement company in the world
               and the consequent number one choice for clients across industries
               interested in quality yet cost effective supply chain solutions.
