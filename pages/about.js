@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../styles/About.module.css";
 import * as Icon from "react-bootstrap-icons";
 import {
   Navbar,
@@ -14,6 +15,12 @@ import {
   CarouselItem,
   Accordion,
 } from "react-bootstrap";
+import Header2 from "../components/header2";
+
+Header2.imgsrc = "img/bg-1.jpg";
+Header2.title = "About Us - Our Unique story";
+Header2.excerpt =
+  "We are from a place where Professionalism is never compromised.";
 
 export default function about() {
   return (
@@ -115,6 +122,55 @@ export default function about() {
               Sustainability Vision is to become the Socially and
               Environmentally Responsible Leading Procurement partner of choice.
             </p>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container className="m-10">
+        <Row>
+          <div className="p-1 me-auto text-gray rounded text-center pb-4">
+            <h1>Our Team Values</h1>
+            {/* <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate
+            </p> */}
+          </div>
+        </Row>
+
+        <Row className={styles.sectionchild}>
+          <Col xs={6} md={3}>
+            <div className={styles.iconstab}>
+              <Icon.Globe2
+                size={96}
+                className="hover:animate-bounce text-blue-900"
+              />
+              <h4>Competence</h4>
+            </div>
+          </Col>
+          <Col xs={6} md={3} className={styles.iconstab}>
+            <Icon.UiChecks
+              size={96}
+              className="hover:animate-bounce text-blue-900"
+            />
+            <h4>Professionalism</h4>
+          </Col>
+
+          <Col xs={6} md={3}>
+            <Icon.Gem
+              size={96}
+              className="hover:animate-bounce text-blue-900 text-center"
+            />
+            <h4>Excellence</h4>
+          </Col>
+          <Col xs={6} md={3}>
+            <Icon.PersonCheck
+              size={96}
+              className="hover:animate-bounce text-blue-900 w-100 flex justify-center"
+            />
+            <h4>Integrity</h4>
           </Col>
         </Row>
       </Container>

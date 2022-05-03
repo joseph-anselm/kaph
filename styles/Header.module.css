@@ -41,6 +41,15 @@
   width: 100%;
   height: 400px;
   display: flex;
+  z-index: 0;
+}
+.subheader::after {
+  height: 400px;
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.6;
+  z-index: 10;
 }
 .subheader img {
   position: absolute;
@@ -48,6 +57,7 @@
   height: 400px;
   max-height: 350px;
   object-fit: cover;
+  z-index: 0;
 }
 .subheader span {
   position: relative;

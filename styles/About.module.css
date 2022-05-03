@@ -1,0 +1,11 @@
+.sectionchild svg {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.sectionchild h4 {
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}

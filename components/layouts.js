@@ -23,15 +23,17 @@ import { useRouter } from "next/router";
 import { useHistory } from "react-router";
 import { useEffect } from "react";
 
-export default function Layout({ children }) {
+export default function Layout({ children, title }) {
   const router = useRouter();
   const showHeader = router.asPath === "/" ? true : false;
   const showHeader2 = router.asPath === "/about" ? true : false;
+  const showHeader3 = router.asPath === "/contact" ? true : false;
+  const showHeader4 = router.asPath === "/services" ? true : false;
 
   return (
     <>
       <Head>
-        <title>Welcome to Kaph Global Solutions Limited</title>
+        <title>Welcome to Kaph Global Solutions Limited - {Layout.title}</title>
         <link rel="icon" href="/img/favicon.png" />
 
         <meta
@@ -48,6 +50,8 @@ export default function Layout({ children }) {
       <Menubar />
       {showHeader && <Header />}
       {showHeader2 && <Header2 />}
+      {showHeader3 && <Header2 />}
+      {showHeader4 && <Header2 />}
       <main>{children}</main>
       <Footer />
     </>

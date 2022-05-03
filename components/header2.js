@@ -16,17 +16,19 @@ import {
 import { useEffect } from "react";
 
 export default function Header2() {
+  Header2.image;
+  Header2.title;
+  Header2.excerpt;
+  Header2.imgsrc;
   return (
     <div>
       <Container fluid className={styles.headerrow}>
         <Row>
           <div className={styles.subheader}>
-            <img src="/img/bgd-3.jpg" alt="Header About" />
+            <img src={Header2.imgsrc} alt="Header About" />
             <span>
-              <h2>About Us - Our Unique Story </h2>
-              <p>
-                We are from a place where Professionalism is never compromised.
-              </p>
+              <h2>{Header2.title}</h2>
+              <p>{Header2.excerpt}</p>
             </span>
           </div>
         </Row>
