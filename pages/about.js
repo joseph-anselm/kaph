@@ -60,7 +60,7 @@ export default function about() {
                   Ensure honest and transparent dealing at all times.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="1">
+              <Accordion.Item eventKey="2">
                 <Accordion.Header>Goal #3</Accordion.Header>
                 <Accordion.Body>
                   Strengthen and sustain partnerships for mutual benefit.
