@@ -67,6 +67,35 @@ export default function about() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+            <p>We strive to:</p>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>Provision</Accordion.Header>
+                <Accordion.Body>
+                  Provide the Highest possible Quality Services to our Clients.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>Development</Accordion.Header>
+                <Accordion.Body>
+                  Develop and implement new partnerships and synergies.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>Affordable</Accordion.Header>
+                <Accordion.Body>
+                  Ensure that we offer the best pricing and terms & conditions
+                  available.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>Transparency</Accordion.Header>
+                <Accordion.Body>
+                  Carry out all our business transactions in a transparent
+                  manner.
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
           </Col>
         </Row>
       </Container>
