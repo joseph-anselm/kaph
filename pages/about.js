@@ -96,6 +96,17 @@ export default function about() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+            <p>
+              In following these goals, and thereby achieving KGSL&apos;s
+              objectives and mission, it is essential that we continually
+              conduct ourselves and our businesses in accordance with the
+              highest moral and ethical standards and in compliance with all
+              relevant local and international laws. KGSL will adopt a zero
+              tolerance approach, both internally and externally, to any failure
+              to adhere to these principles and standards. KGSL&apos;s
+              Sustainability Vision is to become the Socially and
+              Environmentally Responsible Leading Procurement partner of choice.
+            </p>
           </Col>
         </Row>
       </Container>
