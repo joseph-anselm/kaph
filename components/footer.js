@@ -46,7 +46,7 @@ export default function Footer() {
               </p>
             </span>
             <span className="flex">
-              <Icon.Phone /> <p className="pl-2">+23480333555333</p>
+              <Icon.Phone /> <p className="pl-2">+2347049788560</p>
             </span>
             <span className="flex">
               <Icon.Envelope /> <p className="pl-2">info@kahpglobal.com</p>

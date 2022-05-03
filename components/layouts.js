@@ -2,6 +2,7 @@ import React from "react";
 import Menubar from "./menubar";
 import Footer from "./footer";
 import Head from "next/dist/shared/lib/head";
+import Header2 from "./header2";
 import Header from "./header";
 import Services from "./services";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -18,8 +19,15 @@ import {
   Carousel,
   CarouselItem,
 } from "react-bootstrap";
+import { useRouter } from "next/router";
+import { useHistory } from "react-router";
+import { useEffect } from "react";
 
 export default function Layout({ children }) {
+  const router = useRouter();
+  const showHeader = router.asPath === "/" ? true : false;
+  const showHeader2 = router.asPath === "/about" ? true : false;
+
   return (
     <>
       <Head>
@@ -31,7 +39,8 @@ export default function Layout({ children }) {
         />
       </Head>
       <Menubar />
-      <Header />
+      {showHeader && <Header />}
+      {showHeader2 && <Header2 />}
       <main>{children}</main>
       <Footer />
     </>

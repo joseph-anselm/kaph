@@ -50,7 +50,7 @@ export default function Menubar() {
               </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">
+              <Nav.Link href="/contact">
                 <Button variant="primary" className={styles.navbutton}>
                   Live Chat
                 </Button>{" "}

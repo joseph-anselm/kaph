@@ -170,7 +170,7 @@ export default function Home() {
                   excellence which reflects and guides all our clients deals and
                   deliverables.
                 </Card.Text>
-                <Button href="#" className={styles.btn}>
+                <Button href="/about" className={styles.btn}>
                   Get Started
                 </Button>
               </Card.ImgOverlay>
