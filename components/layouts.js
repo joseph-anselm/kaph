@@ -4,7 +4,7 @@ import Footer from "./footer";
 import Head from "next/dist/shared/lib/head";
 import Header2 from "./header2";
 import Header from "./header";
-import Services from "./services";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Navbar,
@@ -41,7 +41,7 @@ export default function Layout({ children, title }) {
           content="LCuDCIfe0pJ2jlIqnY_0ABT5-j-4Q00j7EqvK0Xw3JA"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
           rel="stylesheet"
