@@ -164,7 +164,10 @@ export default function services() {
       <Container>
         <Row>
           <Col>
-            <Icon.PeopleFill size={100} className="w-100 text-center m-4" />
+            <Icon.PeopleFill
+              size={100}
+              className="w-100 text-center m-4 text-blue-900 animate-spin"
+            />
             <h2 className="w-100 text-center mb-2">Protocol Service</h2>
             KGSL uses internationally recognized procedures to create a
             welcoming environment for people conducting business in Nigeria.
