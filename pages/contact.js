@@ -55,8 +55,8 @@ export default function contact() {
               Follow our pages
             </h1>
             <p>
-              Using any of our products and need help? Get in touch with
-              customer support
+              Follwing us on any of our social media pages will further help you
+              understand our structures and organizational patterns.
             </p>
             <Row>
               <div className="flex justify-start p-2 space-x-5 cursor-pointer relative bottom-0">
@@ -104,7 +104,7 @@ export default function contact() {
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
               >
-                <Form.Label>Example textarea</Form.Label>
+                <Form.Label>Enter Your Message</Form.Label>
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
 
