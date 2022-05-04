@@ -35,7 +35,7 @@ export default function Home() {
                 className="flex justify-center m-auto pb-4 hover:animate-bounce"
               />
               <h2>
-                We Are <span className="text-blue-900">KGLS</span>{" "}
+                We Are <span className="text-blue-900">KGSL</span>{" "}
               </h2>
             </div>
             <p>
