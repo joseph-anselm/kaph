@@ -37,7 +37,7 @@ export default function contact() {
               <Icon.Headset size={50} className=" text-blue-900" /> */}{" "}
               Enquiries !
             </h1>
-            <p>Interested in any of our Servicess? Talk to our experts today</p>
+            <p>Interested in any of our Services? Talk to our experts today</p>
             <p>
               <b className=" text-blue-900">Phone:</b> +2347049788560
             </p>
@@ -49,7 +49,7 @@ export default function contact() {
             </p>
             <hr />
 
-            <h1 className="grid">
+            <h1 className="grid mb-3">
               {/* {" "}
               <Icon.Headset size={50} className=" text-blue-900" /> */}
               Follow our pages
@@ -61,18 +61,21 @@ export default function contact() {
             <Row>
               <div className="flex justify-start p-2 space-x-5 cursor-pointer relative bottom-0">
                 <Link href="https://facebook.com/kaphglobal">
-                  <Icon.Facebook size={40} className="text-blue-900" />
+                  <Icon.Facebook
+                    size={40}
+                    className="text-blue-900 hover:animate-bounce hover:drop-shadow-lg"
+                  />
                 </Link>
                 <Link href="https://linkedin.com/kaphglobal">
                   <Icon.Linkedin
                     size={40}
-                    className=" border-2 text-blue-900"
+                    className=" border-2 text-blue-900 hover:animate-bounce hover:drop-shadow-lg"
                   />
                 </Link>
                 <Link href="https://twitter.com/kaphglobal">
                   <Icon.Twitter
                     size={40}
-                    className=" drop-shadow-sm text-blue-900"
+                    className=" drop-shadow-sm text-blue-900 hover:animate-bounce hover:drop-shadow-lg hover:transition hover:delay-500"
                   />
                 </Link>
               </div>
