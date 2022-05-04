@@ -46,7 +46,7 @@ export default function about() {
           <Col xs={12} md={12}>
             <Icon.Signpost2Fill
               size={100}
-              className="text-center w-100 mb-3 text-blue-900 animate-bounce"
+              className="text-center w-100 m-3 text-blue-900 animate-bounce delay-75"
             />
             <h2 className=" text-center"> Mision</h2>
             <p className="m-2">

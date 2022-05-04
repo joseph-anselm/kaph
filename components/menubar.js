@@ -30,11 +30,28 @@ export default function Menubar() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="m-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About Us</Nav.Link>
-              <Nav.Link href="/services">Our Services</Nav.Link>
-              <Nav.Link href="/contact">Contact Us</Nav.Link>
+            <Nav className="m-auto text-blue-900">
+              <Nav.Link href="/">
+                <span className="text-blue-900 text-lg hover:text-yellow-400 hover:border-b-2 hover:border-b-blue-900 transition duration-300 delay-100 hover:delay-0 p-1">
+                  Home
+                </span>
+              </Nav.Link>
+              <Nav.Link href="/about">
+                {" "}
+                <span className="text-blue-900 text-lg hover:text-yellow-400 hover:border-b-2 hover:border-b-blue-900 transition duration-300 delay-100 hover:delay-0 p-1">
+                  About Us
+                </span>
+              </Nav.Link>
+              <Nav.Link href="/services">
+                <span className="text-blue-900 text-lg hover:text-yellow-400 hover:border-b-2 hover:border-b-blue-900 transition duration-300 delay-100 hover:delay-0 p-1">
+                  Our Services
+                </span>
+              </Nav.Link>
+              <Nav.Link href="/contact">
+                <span className="text-blue-900 text-lg hover:text-yellow-400 hover:border-b-2 hover:border-b-blue-900 transition duration-300 delay-100 hover:delay-0 p-1">
+                  Contact
+                </span>
+              </Nav.Link>
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
