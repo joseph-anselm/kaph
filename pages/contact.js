@@ -22,7 +22,7 @@ import {
 Layouts.title = "Contact us";
 Header2.title = "Contact Page";
 Header2.title = "Reach out to us";
-Header2.imgsrc = "/img/bgd-6.jpg";
+Header2.imgsrc = "/img/bgd-7.jpg";
 Header2.excerpt =
   "We ensure all queries are well attended to, all our available contact options is a way to help us reach our audience and also keep us connected always  ";
 
