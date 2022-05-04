@@ -27,7 +27,7 @@ export default function Home() {
       <Container fluid className={styles.section1}>
         <Row>
           <div className=" p-2 me-auto text-gray rounded text-center">
-            <div className="grid justify-center w-50 m-auto">
+            <div className="grid justify-center w-70 m-auto">
               <img
                 src="img/kaphfooterlogo.png"
                 width={180}
