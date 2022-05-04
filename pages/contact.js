@@ -30,8 +30,8 @@ export default function contact() {
   return (
     <div>
       <Container>
-        <Row className="drop-shadow-md">
-          <Col xs={12} md={6}>
+        <Row className="drop-shadow-md p-5">
+          <Col xs={12} md={6} className="pl-4">
             <h1 className="grid">
               {/* {" "}
               <Icon.Headset size={50} className=" text-blue-900" /> */}{" "}
@@ -49,7 +49,7 @@ export default function contact() {
             </p>
             <hr />
 
-            <h1 className="grid mt-5">
+            <h1 className="grid">
               {/* {" "}
               <Icon.Headset size={50} className=" text-blue-900" /> */}
               Follow our pages
@@ -59,7 +59,7 @@ export default function contact() {
               customer support
             </p>
             <Row>
-              <div className="flex justify-start p-2 space-x-5 cursor-pointer">
+              <div className="flex justify-start p-2 space-x-5 cursor-pointer relative bottom-0">
                 <Link href="https://facebook.com/kaphglobal">
                   <Icon.Facebook size={40} className="text-blue-900" />
                 </Link>
