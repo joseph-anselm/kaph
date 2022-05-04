@@ -28,8 +28,11 @@ export default function services() {
         <Row>
           <Col xs={12} md={12}>
             <div>
-              <Icon.Globe size={100} className="w-100 text-center m-4" />
-              <h2 className="w-100 text-center mb-2">Global Sourcing</h2>
+              <Icon.Globe
+                size={100}
+                className="w-100 text-center m-4 text-blue-900 animate-bounce"
+              />
+              <h2 className="w-100 text-center mb-2 ">Global Sourcing</h2>
               We understand the diverse need of different clients, that is why
               our sourcing services are scalable, so that we can provide you
               with the precise combination of global sourcing solutions that you
@@ -137,7 +140,10 @@ export default function services() {
       <Container>
         <Row>
           <Col>
-            <Icon.Tools size={100} className="w-100 text-center m-4" />
+            <Icon.Tools
+              size={100}
+              className="w-100 text-center m-4 text-blue-900 animate-bounce"
+            />
             <h2 className="w-100 text-center mb-2">General Contracting</h2>
             <p>
               Our vision is our mission. KGSL is ready to turn your dreams into
@@ -166,7 +172,7 @@ export default function services() {
           <Col>
             <Icon.PeopleFill
               size={100}
-              className="w-100 text-center m-4 text-blue-900 animate-spin"
+              className="w-100 text-center m-4 text-blue-900 animate-bounce"
             />
             <h2 className="w-100 text-center mb-2">Protocol Service</h2>
             KGSL uses internationally recognized procedures to create a
