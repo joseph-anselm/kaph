@@ -61,50 +61,64 @@ export default function about() {
             </p>
             <Accordion>
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Goal #1</Accordion.Header>
+                <Accordion.Header>
+                  <b>Goal #1</b>
+                </Accordion.Header>
                 <Accordion.Body>
                   Build the most relevant, competitive, comprehensive quality
                   repository of supply contracts
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Goal #2</Accordion.Header>
+                <Accordion.Header>
+                  <b>Goal #2</b>
+                </Accordion.Header>
                 <Accordion.Body>
                   Ensure honest and transparent dealing at all times.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>Goal #3</Accordion.Header>
+                <Accordion.Header>
+                  <b>Goal #3</b>
+                </Accordion.Header>
                 <Accordion.Body>
                   Strengthen and sustain partnerships for mutual benefit.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <p className="m-3">
+            <p className="mb-4 mt-4 text-blue-900 capitalize">
               <b>We strive to:</b>
             </p>
             <Accordion>
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Provision</Accordion.Header>
+                <Accordion.Header>
+                  <b>Provide</b>
+                </Accordion.Header>
                 <Accordion.Body>
                   Provide the Highest possible Quality Services to our Clients.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Development</Accordion.Header>
+                <Accordion.Header>
+                  <b>Develop</b>
+                </Accordion.Header>
                 <Accordion.Body>
                   Develop and implement new partnerships and synergies.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>Affordable</Accordion.Header>
+                <Accordion.Header>
+                  <b>Make Affordable</b>
+                </Accordion.Header>
                 <Accordion.Body>
                   Ensure that we offer the best pricing and terms & conditions
                   available.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
-                <Accordion.Header>Transparency</Accordion.Header>
+                <Accordion.Header>
+                  <b>Be Transparency</b>
+                </Accordion.Header>
                 <Accordion.Body>
                   Carry out all our business transactions in a transparent
                   manner.
@@ -154,6 +168,7 @@ export default function about() {
             <Icon.UiChecks
               size={80}
               className="hover:animate-bounce text-blue-900"
+              id={styles.icons}
             />
             <h4>Professionalism</h4>
           </Col>

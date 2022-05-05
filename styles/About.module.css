@@ -9,3 +9,14 @@
   text-align: center;
   justify-content: center;
 }
+
+.iconstab .icons:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+.iconstab .icons:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
