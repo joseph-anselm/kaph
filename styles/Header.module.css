@@ -41,21 +41,31 @@
   width: 100%;
   height: 400px;
   display: flex;
+  max-height: 400px;
   z-index: 0;
+  position: relative;
 }
-.subheader::after {
-  height: 400px;
+.subheader::before {
   position: absolute;
   content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
   background: rgba(0, 0, 0, 0.6);
-  opacity: 0.6;
+  display: flex;
+
+  max-height: 400px;
   z-index: 10;
 }
 .subheader img {
   position: absolute;
   width: 100%;
+  padding: 0;
+  margin: 0;
   height: 400px;
-  max-height: 350px;
+  max-height: 400px;
   object-fit: cover;
   z-index: 0;
 }
@@ -68,7 +78,8 @@
   width: 100%;
   align-content: center;
   height: 350px;
-  padding: 0 50px;
+  padding: 0 30px;
   text-align: center;
   text-shadow: 2px 2px #000000;
+  z-index: 12;
 }
