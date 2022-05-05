@@ -60,18 +60,17 @@ export default function Footer() {
                 <Link href="/about">Our Story</Link>
               </li>
               <li>
-                <Link href="/about">Contact us</Link>
+                <Link href="/contact">Contact us</Link>
               </li>
               <li>
-                <Link href="/about">Services</Link>
+                <Link href="/services">Services</Link>
               </li>
               <li>
                 <Link href="/about">Our Team</Link>
               </li>
-
-              <Link href="/about">
-                <li>Our Team</li>
-              </Link>
+              <li>
+                <Link href="/about">Our Values</Link>
+              </li>
             </ul>
           </Col>
         </Row>
@@ -81,13 +80,25 @@ export default function Footer() {
         <Row>
           <div className="flex justify-center p-2 space-x-5 cursor-pointer">
             <Link href="https://facebook.com/kaphglobal">
-              <Icon.Facebook size={20} color="yellow" />
+              <Icon.Facebook
+                size={20}
+                color="yellow"
+                className="hover:animate-ping"
+              />
             </Link>
             <Link href="https://linkedin.com/kaphglobal">
-              <Icon.Linkedin size={20} color="yellow" className=" border-2" />
+              <Icon.Linkedin
+                size={20}
+                color="yellow"
+                className="hover:animate-ping"
+              />
             </Link>
             <Link href="https://twitter.com/kaphglobal">
-              <Icon.Twitter size={20} color="yellow" />
+              <Icon.Twitter
+                size={20}
+                color="yellow"
+                className="hover:animate-ping"
+              />
             </Link>
           </div>
         </Row>

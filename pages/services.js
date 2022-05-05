@@ -49,7 +49,7 @@ export default function services() {
                     <img src="img/tab-4.jpg" />
                     <Accordion.Header className="bg-secondary ">
                       {" "}
-                      End to end procurement
+                      <b>End to end procurement</b>
                     </Accordion.Header>
                     <Accordion.Body>
                       At KGSL, our team manage the entire purchasing process by
@@ -85,7 +85,7 @@ export default function services() {
                     <img src="img/tab-5.jpg" />
                     <Accordion.Header className="bg-secondary ">
                       {" "}
-                      Quality Assurance Service
+                      <b>Quality Assurance Service</b>
                     </Accordion.Header>
                     <Accordion.Body>
                       KGSL provides end-to-end quality assurance services to
@@ -107,7 +107,7 @@ export default function services() {
                     <img src="img/tab-6.jpg" />
                     <Accordion.Header className="bg-secondary ">
                       {" "}
-                      Supplier Qualification service
+                      <b>Supplier Qualification service</b>
                     </Accordion.Header>
                     <Accordion.Body>
                       If required, KGSL acts as a procurement outsourcing
