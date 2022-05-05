@@ -200,7 +200,7 @@ export default function services() {
               Business Grants and Funds Sourcing
             </h2>
             KGSL speciliazes in sourcing Funds and Support Grants for
-            organizations, NGO&apos;'s and start ups, we use specalized
+            organizations, NGO&apos;s and start ups, we use specalized
             strategies to ensure your unique business ideas gets the available
             business supports funding either in form of loan, Grants and other
             available funding options available to your business line and start
