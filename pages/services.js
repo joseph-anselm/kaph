@@ -197,14 +197,14 @@ export default function services() {
               className="w-100 text-center m-4 text-blue-900 animate-bounce"
             />
             <h2 className="w-100 text-center mb-2">
-              Business Grants and FUnds Sourcing
+              Business Grants and Funds Sourcing
             </h2>
-            KGSL speciliases in sourcing Funds and Grant support for
-            organizations and start ups, we use specalized strategies to ensure
-            your unique business ideas gets the available business supports
-            funding either in form of loan, Grants and other available funding
-            options available to your business and start up ideas. We have
-            expertise in:
+            KGSL speciliazes in sourcing Funds and Support Grants for
+            organizations, NGO's and start ups, we use specalized strategies to
+            ensure your unique business ideas gets the available business
+            supports funding either in form of loan, Grants and other available
+            funding options available to your business line and start up ideas.
+            We have expertise in:
             <ul className=" list-disc pb-2">
               <li>Business Proposal Writings</li>
               <li>Training and Consultancy</li>
