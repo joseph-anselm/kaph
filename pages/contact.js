@@ -31,6 +31,41 @@ export default function contact() {
     <div>
       <Container>
         <Row className="drop-shadow-md p-5">
+          <Col xs={12} md={6} className="border-1 mb-5 drop-shadow-sm ">
+            <h1>Get In Touch !</h1>
+            <Form className="m-3">
+              <Row className="mb-3">
+                <Form.Group as={Col} controlId="formGridEmail">
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control type="email" placeholder="Enter email" />
+                </Form.Group>
+              </Row>
+
+              <Form.Group className="mb-3" controlId="formGridAddress1">
+                <Form.Label>Address</Form.Label>
+                <Form.Control placeholder="1234 Main St" />
+              </Form.Group>
+
+              <Row className="mb-3">
+                <Form.Group as={Col} controlId="formGridCity">
+                  <Form.Label>City</Form.Label>
+                  <Form.Control />
+                </Form.Group>
+              </Row>
+
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlTextarea1"
+              >
+                <Form.Label>Enter Your Message</Form.Label>
+                <Form.Control as="textarea" rows={3} />
+              </Form.Group>
+
+              <Button variant="primary" type="submit" className="w-100">
+                Submit
+              </Button>
+            </Form>
+          </Col>
           <Col xs={12} md={6} className="pl-4">
             <h1 className="grid">
               {/* {" "}
@@ -80,41 +115,6 @@ export default function contact() {
                 </Link>
               </div>
             </Row>
-          </Col>
-          <Col xs={12} md={6} className="border-1 mb-5 drop-shadow-sm ">
-            <h1>Get In Touch !</h1>
-            <Form className="m-3">
-              <Row className="mb-3">
-                <Form.Group as={Col} controlId="formGridEmail">
-                  <Form.Label>Email</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
-              </Row>
-
-              <Form.Group className="mb-3" controlId="formGridAddress1">
-                <Form.Label>Address</Form.Label>
-                <Form.Control placeholder="1234 Main St" />
-              </Form.Group>
-
-              <Row className="mb-3">
-                <Form.Group as={Col} controlId="formGridCity">
-                  <Form.Label>City</Form.Label>
-                  <Form.Control />
-                </Form.Group>
-              </Row>
-
-              <Form.Group
-                className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
-              >
-                <Form.Label>Enter Your Message</Form.Label>
-                <Form.Control as="textarea" rows={3} />
-              </Form.Group>
-
-              <Button variant="primary" type="submit" className="w-100">
-                Submit
-              </Button>
-            </Form>
           </Col>
         </Row>
       </Container>
