@@ -15,8 +15,8 @@ import {
   CarouselItem,
   Accordion,
 } from "react-bootstrap";
-import Header2 from "../components/header2";
 
+import Header2 from "../components/header2";
 Header2.imgsrc = "img/bg-1.jpg";
 Header2.title = "About Us - Our Unique story";
 Header2.excerpt =
