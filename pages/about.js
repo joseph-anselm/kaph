@@ -30,7 +30,7 @@ export default function about() {
           <Col xs={12} md={12}>
             <Icon.Bullseye
               size={100}
-              className="text-center w-100 mb-3 text-blue-900 animate-bounce "
+              className="text-center w-100 mt-5 mb-3 text-blue-900 animate-bounce "
             />
             <h2 className="text-center">Vision</h2>
             <p>
@@ -144,15 +144,15 @@ export default function about() {
           <Col xs={6} md={3}>
             <div className={styles.iconstab}>
               <Icon.Globe2
-                size={96}
-                className="hover:animate-bounce text-blue-900"
+                size={80}
+                className="hover:animate-bounce text-blue-900 drop-shadow-md"
               />
               <h4>Competence</h4>
             </div>
           </Col>
           <Col xs={6} md={3} className={styles.iconstab}>
             <Icon.UiChecks
-              size={96}
+              size={80}
               className="hover:animate-bounce text-blue-900"
             />
             <h4>Professionalism</h4>
@@ -160,14 +160,14 @@ export default function about() {
 
           <Col xs={6} md={3}>
             <Icon.Gem
-              size={96}
+              size={80}
               className="hover:animate-bounce text-blue-900 text-center"
             />
             <h4>Excellence</h4>
           </Col>
           <Col xs={6} md={3}>
             <Icon.PersonCheck
-              size={96}
+              size={80}
               className="hover:animate-bounce text-blue-900 w-100 flex justify-center"
             />
             <h4>Integrity</h4>
