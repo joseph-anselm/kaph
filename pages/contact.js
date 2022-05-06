@@ -2,7 +2,6 @@ import React from "react";
 import Header2 from "../components/header2";
 import Layouts from "../components/layouts";
 import Link from "next/dist/client/link";
-import styles from "../styles/Services.module.css";
 import * as Icon from "react-bootstrap-icons";
 import {
   Navbar,
@@ -62,7 +61,7 @@ export default function contact() {
               </Form.Group>
 
               <Button variant="primary" type="submit" className="w-100">
-                <Link>Send Message</Link>
+                Send Message
               </Button>
             </Form>
           </Col>
