@@ -106,14 +106,14 @@ export default function Footer() {
           © 2020 Copyright{" "}
           <span className=" text-blue-200">
             {" "}
-            <a
+            <Link
               href="https://kaphglobal.com"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-yellow-400 no-underline"
             >
               Kaph Global Solutions Limited
-            </a>
+            </Link>
           </span>
         </p>
       </footer>

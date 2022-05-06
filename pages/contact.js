@@ -62,7 +62,7 @@ export default function contact() {
               </Form.Group>
 
               <Button variant="primary" type="submit" className="w-100">
-                Send Message
+                <Link>Send Message</Link>
               </Button>
             </Form>
           </Col>
@@ -70,7 +70,7 @@ export default function contact() {
             <h1 className="grid">
               {/* {" "}
               <Icon.Headset size={50} className=" text-blue-900" /> */}{" "}
-              Enquiries !
+              Enquiries
             </h1>
             <p>Interested in any of our Services? Talk to our experts today</p>
             <p>
