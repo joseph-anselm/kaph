@@ -69,6 +69,9 @@
   align-content: center;
   text-shadow: 1px 1px 1px #000;
 }
+.section3 {
+  height: 300px;
+}
 .section3 h1 {
   font-size: 3em;
 }
@@ -77,6 +80,15 @@
   height: 300px;
   width: 100%;
   object-fit: cover;
+}
+.section3::before {
+  position: absolute;
+  content: " ";
+  background-color: rgb(red, green, blue, 0.7);
+  z-index: 2;
+  height: 300px;
+  left: 0;
+  top: 0;
 }
 .btn {
   color: #fff;

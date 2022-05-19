@@ -9,6 +9,9 @@
   text-shadow: 1px 1px 1px #000;
   bottom: 20%;
 }
+.carouselcaption h1 {
+  font-family: "Alumni Sans Inline One", cursive;
+}
 .carousel-control-next {
   right: 0;
   visibility: hidden;

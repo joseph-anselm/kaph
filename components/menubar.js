@@ -17,7 +17,13 @@ import {
 export default function Menubar() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+        className="sticky-top"
+      >
         <Container>
           <Navbar.Brand href="#home">
             <img
