@@ -48,7 +48,7 @@ export default function about() {
               size={100}
               className="text-center w-100 m-3 text-blue-900 animate-bounce delay-75"
             />
-            <h2 className=" text-center"> Mision</h2>
+            <h2 className=" text-center"> Mission</h2>
             <p className="m-2">
               Kaph Global Solutions Limited &apos;KGSL&apos; is a commercial
               procurement company. KGSL negotiates at the most competitive level
