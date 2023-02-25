@@ -27,6 +27,17 @@ export default function about() {
     <div>
       <Container>
         <Row>
+    <Col xs={12} md={12}>
+            <h2 className="text-center">Our Story</h2>
+            <p>
+              Kaph Global is a professional services firm dedicated to providing expert consulting, business support, supply chain, and procurement solutions to organizations worldwide. Our mission is to help businesses achieve sustainable growth and success by optimizing their operations, reducing costs, and increasing efficiency.
+
+We understand that every organization is unique and faces its own set of challenges, which is why we offer tailored solutions that meet the specific needs of each client. Our team of experienced consultants works closely with our clients to understand their goals and objectives, identify areas for improvement, and develop customized strategies to drive success.
+
+At Kaph Global, we pride ourselves on our commitment to excellence, integrity, and professionalism. We leverage our industry expertise and global network to deliver high-quality solutions that create value for our clients. Whether you need help with strategic planning, operational optimization, procurement, or supply chain management, we have the expertise and experience to help you achieve your goals.
+            </p>
+          </Col>
+    
           <Col xs={12} md={12}>
             <Icon.Bullseye
               size={100}
