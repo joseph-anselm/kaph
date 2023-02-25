@@ -32,7 +32,7 @@ export default function Footer() {
             />
             <p>
               Kaph Global Solutions Limited (KGSL) is a women-owned commercial
-              procurement and B2B supply chain company. Our approach to business
+              procurement, consulting and B2B supply chain company. Our approach to business
               has enabled us to provide value-driven alternatives to our client.
             </p>
           </Col>
