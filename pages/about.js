@@ -28,7 +28,7 @@ export default function about() {
       <Container>
         <Row>
     <Col xs={12} md={12}>
-            <h2 className="text-center">Our Story</h2>
+            <h2 className="text-center mt-5">Our Story</h2>
             <p>
               Kaph Global is a professional services firm dedicated to providing expert consulting, business support, supply chain, and procurement solutions to organizations worldwide. Our mission is to help businesses achieve sustainable growth and success by optimizing their operations, reducing costs, and increasing efficiency.
 
